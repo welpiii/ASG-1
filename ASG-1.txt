@@ -1,0 +1,23 @@
+Nomor 1
+
+Start
+Print "Calculate Area of Rectangle"
+Length = 5
+Width = 3
+Print "Area of Rectangle = "
+Area = Length * Width
+Print Area
+End
+
+Nomor 2
+
+Start
+Print "Input & Calculate Area of Rectangle"
+Print "Input Length = "
+Input Length
+Print "Input Width = "
+Input Width
+Area = Length * Width
+Print "Area of Rectangle = "
+Print Area
+End
