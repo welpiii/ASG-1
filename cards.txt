@@ -1,0 +1,70 @@
+MONSTER_NORMAL#1#Blade Knight#A warrior with a sharp blade#1600#4
+MONSTER_NORMAL#2#Axe Raider#A fierce axe-wielding warrior#1700#4
+MONSTER_NORMAL#3#Battle Warrior#A trained combat soldier#1500#4
+MONSTER_NORMAL#4#Shield Crusher#Warrior who breaks defenses#1400#4
+MONSTER_NORMAL#5#Iron Swordsman#A swordsman in iron armor#1300#3
+MONSTER_NORMAL#6#War Captain#Leader of the warrior squad#1550#4
+MONSTER_EFFECT#7#Berserker Knight#Gains ATK when attacking#1600#4#BOOST_SELF_ATK#200
+MONSTER_EFFECT#8#Revenge Soldier#Stronger when damaged#1400#4#BOOST_SELF_ATK#300
+MONSTER_NORMAL#9#General of War#Supreme warrior commander#2400#6
+MONSTER_EFFECT#10#Warrior King#The ultimate warrior leader#2600#7#BOOST_ALL_WARRIOR#200
+MONSTER_NORMAL#11#Baby Dragon#A small but fierce dragon#1200#3
+MONSTER_NORMAL#12#Fire Drake#A dragon breathing flames#1400#4
+MONSTER_NORMAL#13#Scale Guardian#Dragon protecting its kin#1100#3
+MONSTER_NORMAL#14#Wind Serpent#A swift flying dragon#1300#4
+MONSTER_EFFECT#15#Dragon Caller#Boosts dragon allies#1000#3#BOOST_ALL_DRAGON#100
+MONSTER_NORMAL#16#Flame Whelp#Young dragon with fire breath#1500#4
+MONSTER_EFFECT#17#Dragon Knight#Warrior riding a dragon#1600#4#BOOST_SELF_ATK#200
+MONSTER_NORMAL#18#Red Wyrm#A crimson scaled dragon#1450#4
+MONSTER_NORMAL#19#Thunder Dragon Lord#Mighty dragon of storms#2500#6
+MONSTER_EFFECT#20#Inferno Dragon King#Ultimate fire dragon#2800#7#BURN_DAMAGE#500
+MONSTER_NORMAL#21#Apprentice Mage#A young magic student#1100#3
+MONSTER_NORMAL#22#Dark Sorcerer#Caster of shadow magic#1200#4
+MONSTER_EFFECT#23#Curse Witch#Weakens enemy monsters#1000#3#DEBUFF_ENEMY_ATK#200
+MONSTER_EFFECT#24#Hex Magician#Hexes opposing monsters#1100#4#DEBUFF_ENEMY_ATK#300
+MONSTER_NORMAL#25#Mystic Sage#Wise magical scholar#1300#4
+MONSTER_EFFECT#26#Mind Breaker#Disrupts enemy strategy#900#3#DEBUFF_ENEMY_ATK#400
+MONSTER_NORMAL#27#Arcane Student#Learning forbidden arts#1000#3
+MONSTER_EFFECT#28#Spell Weaver#Enhances spell effects#1200#4#BOOST_SPELL_VALUE#100
+MONSTER_EFFECT#29#Grand Magus#Master of all magic#2300#6#DEBUFF_ALL_ENEMY#200
+MONSTER_EFFECT#30#Dark Archmage#Supreme dark sorcerer#2500#7#DESTROY_WEAKENED#1
+MONSTER_NORMAL#31#Iron Gear#Basic machine soldier#1300#4
+MONSTER_NORMAL#32#Steel Robot#A sturdy metal warrior#1400#4
+MONSTER_EFFECT#33#Power Generator#Boosts other machines#1100#3#BOOST_ALL_MACHINE#100
+MONSTER_EFFECT#34#Repair Bot#Boosts machine allies#1000#3#BOOST_ALL_MACHINE#100
+MONSTER_NORMAL#35#Chrome Soldier#Shiny metallic fighter#1350#4
+MONSTER_NORMAL#36#Copper Golem#A golem made of copper#1250#4
+MONSTER_EFFECT#37#Upgrade Unit#Enhances machine stats#1200#4#BOOST_ALL_MACHINE#150
+MONSTER_NORMAL#38#Titanium Guard#Heavy armored machine#1500#4
+MONSTER_NORMAL#39#Mega Machine#Giant mechanical warrior#2400#6
+MONSTER_EFFECT#40#Ultimate Robot#Perfect machine creation#2700#7#BOOST_ALL_MACHINE#300
+SPELL_NORMAL#41#Power Strike#Boost ATK by 500 this turn#BOOST_ATK#500
+SPELL_NORMAL#42#Warrior Rage#Warriors gain 600 ATK#BOOST_WARRIOR_ATK#600
+SPELL_NORMAL#43#Dragon Flame#Deal damage and boost dragon#BOOST_DRAGON_ATK#400
+SPELL_NORMAL#44#Mind Crush#Reduce enemy ATK by 500#DEBUFF_ENEMY_ATK#500
+SPELL_NORMAL#45#Overcharge#Machines gain 500 ATK#BOOST_MACHINE_ATK#500
+SPELL_NORMAL#46#Double Strike#Attack twice this turn#DOUBLE_ATTACK#1
+SPELL_NORMAL#47#Emergency Repair#Restore 500 ATK to monster#RESTORE_ATK#500
+SPELL_NORMAL#48#Weakening Curse#Enemy loses 600 ATK#DEBUFF_ENEMY_ATK#600
+SPELL_NORMAL#49#System Boost#All machines gain 400 ATK#BOOST_ALL_MACHINE_ATK#400
+SPELL_NORMAL#50#Monster Destruction#Destroy 1 enemy monster#DESTROY_MONSTER#1
+SPELL_FIELD#51#Warrior Arena#All warriors gain 200 ATK#BOOST_ALL_WARRIOR#200
+SPELL_FIELD#52#Dragon Mountain#All dragons gain 300 ATK#BOOST_ALL_DRAGON#300
+SPELL_FIELD#53#Magic Library#Spell effects increased by 100#BOOST_SPELL_EFFECT#100
+SPELL_FIELD#54#Machine Factory#All machines gain 200 ATK per turn#BOOST_ALL_MACHINE#200
+SPELL_CONTINUOUS#55#Battle Aura#Your monsters gain 100 ATK#BOOST_ALL_ATK#100
+SPELL_CONTINUOUS#56#Dragon Spirit#Dragons gain 150 ATK#BOOST_DRAGON_ATK#150
+SPELL_CONTINUOUS#57#Curse Aura#Enemy monsters lose 100 ATK#DEBUFF_ALL_ENEMY#100
+SPELL_CONTINUOUS#58#Power Core#Machines gain 100 ATK each turn#BOOST_MACHINE_STACK#100
+SPELL_CONTINUOUS#59#Pressure Field#Enemy loses 150 ATK#DEBUFF_ALL_ENEMY#150
+SPELL_CONTINUOUS#60#Assembly Line#Machines gain +50 ATK per machine#BOOST_MACHINE_ATTACK#50
+TRAP#61#Counter Strike#Destroy attacking monster#DESTROY_ATTACKER#0
+TRAP#62#Warrior Shield#Negate attack, warrior gains 500 ATK#NEGATE_BOOST_WARRIOR#500
+TRAP#63#Dragon Roar#Negate attack, deal 300 damage#NEGATE_DAMAGE#300
+TRAP#64#Magic Barrier#Negate attack, debuff attacker 400#NEGATE_DEBUFF#400
+TRAP#65#Emergency Shield#Negate attack on machine#NEGATE_PROTECT_MACHINE#0
+TRAP#66#Revenge Trap#When attacked, destroy attacker#DESTROY_ATTACKER#0
+TRAP#67#Mirror Force#Destroy all attacking monsters#DESTROY_ALL_ATTACKERS#0
+TRAP#68#Damage Reflect#Reflect damage back#REFLECT_DAMAGE#0
+TRAP#69#Power Drain#Attacker loses 500 ATK#DRAIN_ATK#500
+TRAP#70#System Backup#Protect machine, boost 300 ATK#PROTECT_BOOST#300

@@ -1,0 +1,28 @@
+// Level 1-4 Machines
+31
+32
+33
+34
+35
+36
+37
+38
+31
+32
+// Level 5+ Machines
+39
+40
+
+// Normal Spell
+45
+49
+
+// Field Spell
+54
+// Continuous Spell
+58
+60
+//Traps 3
+65
+66
+70

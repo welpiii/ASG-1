@@ -1,0 +1,50 @@
+// ============================================
+// DECK 3 - SPELLCASTER CONTROL (Debuff/Tempo)
+// ============================================
+// Archetype: Spellcaster
+// Playstyle: Control / Tempo
+// Strategy: Weaken enemies before attacking
+// - Low ATK monsters with debuff effects
+// - Normal Spell for debuff
+// - Continuous Spell for long-term control
+// - Traps to slow down enemy
+// Win condition: Slowly weaken and destroy
+// ============================================
+
+// === MONSTERS (12 total) ===
+
+// Level 1-4 Spellcasters - Debuff focused (10)
+21
+22
+23
+24
+25
+26
+27
+28
+21
+22
+
+// Level 5+ Spellcasters - Control bosses (2)
+29
+30
+
+// === SPELLS (5 total) ===
+
+// Normal Spell - Debuff enemy (2)
+44
+48
+
+// Field Spell - Magic Library (1)
+53
+
+// Continuous Spell - Curse Aura (2)
+57
+59
+
+// === TRAPS (3 total) ===
+
+// Control/stall traps
+64
+67
+69
