@@ -1,0 +1,220 @@
+Takehome Case
+OOP using Java Project
+
+Periode Berlaku Semester Genap 2025/2026
+Software Laboratory Center
+Assistant Recruitment 26-2
+
+========================
+MATERI
+========================
+- Eclipse
+- Java 11
+
+========================
+SOAL / CASE
+========================
+Yu-GJ-Oh
+
+You decided to join New Assistant Recruitment 26-2, but on the way someone abducted you and you wake up in an island. To escape, you have to defeat the four horsemen of the island in a card game known as Yu-GJ-Oh.
+
+========================
+LANDING PAGE
+========================
+Menu:
+1. Login
+2. Register
+3. Exit
+
+- Input harus antara 1-3
+
+Login:
+- Input Username & Password
+- Jika ada di user.txt → masuk
+- Jika tidak → error
+
+Register:
+- Username unik, minimal 5 karakter
+- Password:
+  * Min 8 karakter
+  * Ada huruf besar
+  * Ada huruf kecil
+  * Ada angka
+  * Ada simbol
+- Password di-hash pakai djb2
+- Simpan ke user.txt
+
+Exit:
+- Tampilkan exit screen
+- Program berhenti
+
+========================
+HOME PAGE
+========================
+Menu:
+1. Explore Map
+2. How to Play
+3. Exit
+
+- Tampilkan user aktif
+- Validasi input 1-3
+
+========================
+DECK SELECTION PAGE
+========================
+- Load cards dari cards.txt
+- Load deck dari deck.txt (berisi id kartu)
+- Kartu bisa duplicate (harus copy object)
+- Pilih deck (1-4)
+
+Format kartu:
+Monster:
+cardType#cardId#cardName#cardFlavorText#cardAtk#cardLevel#EffectType#EffectValue
+
+Spell/Trap:
+cardType#cardId#cardName#cardFlavorText#EffectType#EffectValue
+
+========================
+HOW TO PLAY PAGE
+========================
+- 5 halaman (circular)
+- Navigasi: A / D / Q
+
+========================
+GAME PAGE
+========================
+- Load map.txt
+- Player: '@'
+- Enemy: '!'
+
+- Jika kalah → jadi 'X'
+- Bisa duel jika dekat NPC
+- Input: Y / N
+
+========================
+DUEL SYSTEM
+========================
+Jenis kartu:
+1. Monster
+2. Spell
+3. Trap
+
+Monster:
+- Max 3 di field
+- Level ≤4: summon biasa
+- Level >4: butuh tribute
+- Ada Normal & Effect Monster
+
+Spell:
+- Normal → langsung aktif
+- Field → 1 saja
+- Continuous → aktif terus
+
+Trap:
+- Harus set dulu
+- Tidak bisa langsung aktif
+- Aktif saat diserang
+
+========================
+EFFECT LIST (ringkas)
+========================
+BOOST_SELF_ATK → tambah ATK sendiri
+DEBUFF_ENEMY_ATK → kurangi ATK musuh
+BURN_DAMAGE → damage langsung
+DESTROY_MONSTER → hancurkan monster
+DOUBLE_ATTACK → serang 2x
+NEGATE_DAMAGE → nolkan damage
+REFLECT_DAMAGE → pantulkan damage
+DLL...
+
+========================
+ATURAN DUEL
+========================
+- HP awal: 4000
+- Hand awal: 5 kartu
+- Deck di-shuffle
+
+Turn system:
+1. Draw Phase → ambil 1 kartu
+2. Main Phase:
+   - Summon 1 monster
+   - Aktifkan spell
+   - Set trap
+3. Battle Phase:
+   - Attack jika ada monster
+   - Damage = ATK attacker - ATK defender
+4. End Phase
+
+========================
+AI MUSUH
+========================
+Aggressive (Warrior):
+- Fokus attack tinggi
+
+Tribute (Dragon):
+- Siapkan monster besar
+
+Control (Spellcaster):
+- Debuff lawan
+
+Scaling (Machine):
+- Stack efek
+
+========================
+DUEL PAGE
+========================
+Tampilkan:
+- Nama player & musuh
+- Field
+- Deck
+- Hand
+- HP
+
+Menu (0-7):
+1. Summon Monster
+2. Activate Spell
+3. Set Trap
+4. Battle Phase
+5. End Turn
+6. View Card Detail
+7. Activate Effect
+
+========================
+DETAIL AKSI
+========================
+Summon:
+- Pilih monster
+
+Spell:
+- Pilih spell
+- Apply effect
+
+Trap:
+- Set trap
+
+Battle:
+- Pilih monster
+- Pilih target / direct attack
+
+View Detail:
+- Hand
+- Field
+- Spell/Trap
+- Enemy field
+
+Activate Effect:
+- Pilih monster
+- Aktifkan efek
+
+========================
+LAIN-LAIN
+========================
+- Enemy turn tampilkan aksi AI
+- Menang jika HP lawan ≤ 0
+
+========================
+NOTE
+========================
+Run file EXE untuk melihat contoh program.
+
+Good Luck!
